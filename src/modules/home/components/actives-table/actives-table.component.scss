@@ -1,0 +1,26 @@
+
+.container-search{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.container-table{
+  padding: 0 5rem;
+}
+
+::ng-deep .mat-mdc-cell,
+::ng-deep .mat-mdc-header-cell {
+  border-bottom: none !important;
+}
+
+table {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
